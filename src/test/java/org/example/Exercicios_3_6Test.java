@@ -18,15 +18,17 @@ class Exercicios_3_6Test {
     //Arrange
     double hypotenuseCheck = Math.hypot(c1, c2);
     //Act
-    double hypotenusa = Exercicios_3_6.exercicio_3_6(c1, c2);
+    double result = Exercicios_3_6.exercicio_3_6(c1, c2);
     //Assert
-    assertEquals(hypotenuseCheck, hypotenusa);
+    assertEquals(hypotenuseCheck, result);
     }
     @ParameterizedTest
     @CsvSource({
-            "-1, -1",
+            "-1, -1",          // cateto 1, cateto 2
             "-5, -5",
-            "0, 0"
+            "0, 0",
+            "2, -2",
+            "-2, 2"
             })
     void should_return_nan_if_c1_or_c2_are_negative_or_0(double c1, double c2) {
         //Act
