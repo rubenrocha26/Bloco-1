@@ -11,8 +11,8 @@ class Exercicios_3_3Test {
     @Test
     void should_return_32_for_c_equal_0() {
         double r;
-        r = Exercicios_3_3.exercicio_3_3(0);
-        assertEquals(32, r);
+        r = Exercicios_3_3.exercicio_3_3(1);
+        assertEquals(33.8, r);
     }
 
     @Test

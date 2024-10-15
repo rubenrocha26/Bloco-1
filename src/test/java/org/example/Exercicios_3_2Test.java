@@ -30,10 +30,4 @@ class Exercicios_3_2Test {
         r=Exercicios_3_2.exercicio_3_2(1,-1);
         assertEquals(Double.NaN, r);
     }
-    //@Test
-    //void should_return_nan_for_r_equal_letter_and_h_equal_1(){
-        //double r;
-        //r=Exercicios_3_2.exercicio_3_2('a',1);
-        //assertEquals(Double.NaN, r);
-    //}
 }
