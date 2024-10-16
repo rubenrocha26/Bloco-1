@@ -7,6 +7,10 @@ import org.junit.jupiter.params.provider.CsvSource;
 import static org.junit.jupiter.api.Assertions.*;
 
 class Exercicios_3_5Test {
+    @Test
+    public void test_constructor() {
+        new Exercicios_3_5();
+    }
 
     @Test
     void should_return_minus_1_for_x_equal_1() {

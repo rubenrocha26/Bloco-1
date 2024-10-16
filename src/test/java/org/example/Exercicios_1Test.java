@@ -8,6 +8,11 @@ import static org.junit.jupiter.api.Assertions.*;
 class Exercicios_1Test {
 
     @Test
+    public void test_constructor() {
+        new Exercicios_1();
+    }
+
+    @Test
     public void should_return_1_for_x_equal_0 () {
         //arrange
 

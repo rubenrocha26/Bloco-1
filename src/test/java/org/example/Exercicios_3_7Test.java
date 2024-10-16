@@ -8,6 +8,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class Exercicios_3_7Test {
 
+    @Test
+    public void test_constructor() {
+        new Exercicios_3_7();
+    }
+
     @ParameterizedTest
     @CsvSource({
             "10, 10, 610",         // H, M, minutesConverterExpected

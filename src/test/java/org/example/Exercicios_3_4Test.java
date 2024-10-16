@@ -9,6 +9,11 @@ import static org.junit.jupiter.api.Assertions.*;
 class Exercicios_3_4Test {
 
     @Test
+    public void test_constructor() {
+        new Exercicios_3_4();
+    }
+
+    @Test
     void should_return_2_for_x_equal_1() {
         double r;
         r= Exercicios_3_4.exercicio_3_4(1);

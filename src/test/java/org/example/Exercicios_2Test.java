@@ -7,6 +7,11 @@ import org.junit.jupiter.params.provider.CsvSource;
 import static org.junit.jupiter.api.Assertions.*;
 class Exercicios_2Test {
 
+    @Test
+    public void test_constructor() {
+        new Exercicios_2();
+    }
+
     @org.junit.jupiter.api.Test
     void percentRapazes_A() {
         double r;

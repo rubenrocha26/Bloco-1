@@ -8,6 +8,10 @@ import org.junit.jupiter.params.provider.ValueSource;
 import static org.junit.jupiter.api.Assertions.*;
 
 class Exercicios_3_8Test {
+    @Test
+    public void test_constructor() {
+        new Exercicios_3_8();
+    }
 
     @ParameterizedTest
     @CsvSource({
